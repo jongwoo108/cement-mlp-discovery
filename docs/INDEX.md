@@ -14,11 +14,12 @@
 2. **[ENVIRONMENT_SETUP.md](ENVIRONMENT_SETUP.md)** - 환경 설정 가이드
 3. **[WORKFLOW_01_OPTIMIZATION.md](WORKFLOW_01_OPTIMIZATION.md)** - C3S 구조 최적화 워크플로우
 4. **[WORKFLOW_02_HYDRATION.md](WORKFLOW_02_HYDRATION.md)** - 수화 시뮬레이션 워크플로우
-5. **[WORKFLOW_02_STRUCTURE_ANALYSIS.md](WORKFLOW_02_STRUCTURE_ANALYSIS.md)** - C3S 구조 분석 (RDF, 결합, 배위수)
-6. **[FILE_STRUCTURE.md](FILE_STRUCTURE.md)** - 파일 구조 및 경로
-7. **[RESULTS_SUMMARY.md](RESULTS_SUMMARY.md)** - 주요 결과 및 수치 데이터
-8. **[API_REFERENCE.md](API_REFERENCE.md)** - 코드 패턴 및 재사용 함수
-9. **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - 일반적인 문제 및 해결책
+5. **[02_STRUCTURE_ANALYSIS.md](02_STRUCTURE_ANALYSIS.md)** - C3S 구조 분석 (RDF, 결합, 배위수)
+6. **[03_CSH_FORMATION.md](03_CSH_FORMATION.md)** - C-S-H 젤 형성 시뮬레이션 (Ca 용출, Si 배위)
+7. **[FILE_STRUCTURE.md](FILE_STRUCTURE.md)** - 파일 구조 및 경로
+8. **[RESULTS_SUMMARY.md](RESULTS_SUMMARY.md)** - 주요 결과 및 수치 데이터
+9. **[API_REFERENCE.md](API_REFERENCE.md)** - 코드 패턴 및 재사용 함수
+10. **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - 일반적인 문제 및 해결책
 
 ### 빠른 참조
 
@@ -50,21 +51,22 @@ WORK_DIR = Path("C:/cement_final")
 - 환경: ✅ 완료 (cement_final conda env)
 - 01_노트북: ✅ 완료 (C3S 최적화 + 수화)
 - 02_노트북: ✅ 완료 (구조 분석, RDF, 결합)
+- 03_노트북: ✅ 완료 (C-S-H 젤 형성, 10 ps MD)
 
 # 생성된 주요 파일
 - structures/C3S_optimized.cif
 - trajectories/hydration.traj
+- trajectories/csh_formation_10.0ps.traj
 - figures/C3S_optimization_analysis.png
 - figures/rdf_analysis.png
-- figures/hydration_cao_evolution.png
-- results/rdf_data.csv
+- figures/csh_formation_overview_10.0ps.png
+- results/csh_formation_summary_10.0ps.json
 - results/bond_analysis.json
-- results/coordination_analysis.json
 
 # 다음 단계
-- 03_노트북: C-S-H 젤 형성 시뮬레이션
-- 더 긴 MD 시뮬레이션 (10-50 ps)
-- 대체 결합재 스크리닝 (steel slag, fly ash)
+- 04_노트북: 대체 결합재 스크리닝 (steel slag, fly ash)
+- Materials Project 데이터베이스 활용
+- 더 긴 MD 시뮬레이션 (50-100 ps)
 ```
 
 ---
