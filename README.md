@@ -1,6 +1,6 @@
 # 🏗️ AI-Driven Computational Design of Carbon-Neutral Cement Binders
 
-> **KENTECH AI Co-Scientist Challenge 2026**  
+> **AI Co-Scientist Challenge 2026**  
 > Computational Materials Science Research Project
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
@@ -383,7 +383,7 @@ If you use this code in your research, please cite:
   title={AI-Driven Computational Design of Carbon-Neutral Cement Binders},
   author={Your Name},
   year={2026},
-  howpublished={KENTECH AI Co-Scientist Challenge},
+  howpublished={AI Co-Scientist Challenge},
   url={https://github.com/yourusername/cement-research}
 }
 ```
@@ -400,7 +400,6 @@ If you use this code in your research, please cite:
 
 ## 🙏 Acknowledgments
 
-- **KENTECH** (Korea Institute of Energy Technology) - Winter Internship Program 2025
 - **Materials Project** - DFT reference data and API access
 - **CHGNet Team** - Universal neural network potential
 - **PyTorch Team** - Deep learning framework
@@ -417,7 +416,6 @@ If you use this code in your research, please cite:
 
 **Project Lead**: Your Name  
 **Email**: your.email@example.com  
-**Institution**: KENTECH  
 **Program**: AI Co-Scientist Challenge 2026
 
 **Project Link**: [https://github.com/yourusername/cement-research](https://github.com/yourusername/cement-research)
@@ -459,7 +457,7 @@ in the Software without restriction...
 
 ### 🚀 Built with passion for sustainable construction materials
 
-**Made with ❤️ for KENTECH AI Co-Scientist Challenge 2026**
+**Made with ❤️ for AI Co-Scientist Challenge 2026**
 
 [🏠 Homepage](https://github.com/yourusername/cement-research) • 
 [📖 Documentation](docs/) • 
