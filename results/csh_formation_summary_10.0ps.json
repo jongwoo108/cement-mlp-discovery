@@ -1,0 +1,27 @@
+{
+  "simulation": {
+    "duration_ps": 10.0,
+    "steps": 10000,
+    "frames": 1001,
+    "temperature_K": 300.0
+  },
+  "ca_leaching": {
+    "initial": 3,
+    "final": 4,
+    "maximum": 5,
+    "rate_per_ps": 0.4
+  },
+  "si_coordination": {
+    "initial_avg": 4.0,
+    "final_avg": 4.0,
+    "change": 0.0
+  },
+  "csh_formation": {
+    "cutoff_angstrom": 3.5,
+    "initial_pairs": 10,
+    "final_pairs": 8,
+    "max_pairs": 12,
+    "min_ca_si_distance_initial": 2.9743691123382914,
+    "min_ca_si_distance_final": 3.015031485630634
+  }
+}
