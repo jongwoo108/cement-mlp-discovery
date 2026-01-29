@@ -1,0 +1,228 @@
+{
+  "BFS": {
+    "name": "BFS",
+    "composition": {
+      "Ca": 6,
+      "Si": 4,
+      "Al": 2,
+      "Mg": 1,
+      "O": 16
+    },
+    "co2_reduction": 85,
+    "source": "고로 슬래그",
+    "tier": 1,
+    "volume": 1200,
+    "notes": ""
+  },
+  "SteelSlag": {
+    "name": "SteelSlag",
+    "composition": {
+      "Ca": 8,
+      "Si": 3,
+      "Fe": 2,
+      "Mg": 1,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "제강 슬래그",
+    "tier": 1,
+    "volume": 1200,
+    "notes": ""
+  },
+  "EAFSlag": {
+    "name": "EAFSlag",
+    "composition": {
+      "Ca": 5,
+      "Si": 4,
+      "Fe": 3,
+      "Al": 1,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "전기로 슬래그",
+    "tier": 1,
+    "volume": 1200,
+    "notes": ""
+  },
+  "FlyAshF": {
+    "name": "FlyAshF",
+    "composition": {
+      "Si": 6,
+      "Al": 3,
+      "Fe": 1,
+      "Ca": 1,
+      "O": 16
+    },
+    "co2_reduction": 85,
+    "source": "Fly Ash Class F",
+    "tier": 2,
+    "volume": 1000,
+    "notes": ""
+  },
+  "FlyAshC": {
+    "name": "FlyAshC",
+    "composition": {
+      "Ca": 4,
+      "Si": 5,
+      "Al": 2,
+      "O": 16
+    },
+    "co2_reduction": 85,
+    "source": "Fly Ash Class C",
+    "tier": 2,
+    "volume": 1000,
+    "notes": ""
+  },
+  "BottomAsh": {
+    "name": "BottomAsh",
+    "composition": {
+      "Si": 5,
+      "Al": 3,
+      "Fe": 2,
+      "Ca": 1,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "바닥재",
+    "tier": 2,
+    "volume": 1100,
+    "notes": ""
+  },
+  "CopperSlag": {
+    "name": "CopperSlag",
+    "composition": {
+      "Fe": 5,
+      "Si": 4,
+      "Ca": 2,
+      "Al": 1,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "구리 슬래그",
+    "tier": 3,
+    "volume": 1200,
+    "notes": ""
+  },
+  "RedMud": {
+    "name": "RedMud",
+    "composition": {
+      "Fe": 4,
+      "Al": 4,
+      "Si": 2,
+      "Ti": 1,
+      "O": 16
+    },
+    "co2_reduction": 65,
+    "source": "적니 (알루미늄 정련)",
+    "tier": 3,
+    "volume": 1100,
+    "notes": ""
+  },
+  "NickelSlag": {
+    "name": "NickelSlag",
+    "composition": {
+      "Fe": 5,
+      "Si": 4,
+      "Mg": 2,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "니켈 슬래그",
+    "tier": 3,
+    "volume": 1200,
+    "notes": ""
+  },
+  "SilicaFume": {
+    "name": "SilicaFume",
+    "composition": {
+      "Si": 8,
+      "O": 16
+    },
+    "co2_reduction": 88,
+    "source": "실리카 흄",
+    "tier": 4,
+    "volume": 800,
+    "notes": ""
+  },
+  "RiceHuskAsh": {
+    "name": "RiceHuskAsh",
+    "composition": {
+      "Si": 8,
+      "K": 1,
+      "O": 16
+    },
+    "co2_reduction": 92,
+    "source": "왕겨재",
+    "tier": 4,
+    "volume": 800,
+    "notes": ""
+  },
+  "POFA": {
+    "name": "POFA",
+    "composition": {
+      "Si": 6,
+      "K": 2,
+      "Ca": 1,
+      "O": 16
+    },
+    "co2_reduction": 88,
+    "source": "팜유 연료재",
+    "tier": 4,
+    "volume": 900,
+    "notes": ""
+  },
+  "WasteGlass": {
+    "name": "WasteGlass",
+    "composition": {
+      "Si": 6,
+      "Na": 2,
+      "Ca": 2,
+      "O": 16
+    },
+    "co2_reduction": 75,
+    "source": "폐유리",
+    "tier": 5,
+    "volume": 1000,
+    "notes": ""
+  },
+  "CeramicWaste": {
+    "name": "CeramicWaste",
+    "composition": {
+      "Si": 6,
+      "Al": 4,
+      "O": 16
+    },
+    "co2_reduction": 65,
+    "source": "폐도자기",
+    "tier": 5,
+    "volume": 900,
+    "notes": ""
+  },
+  "Metakaolin": {
+    "name": "Metakaolin",
+    "composition": {
+      "Si": 4,
+      "Al": 4,
+      "O": 14
+    },
+    "co2_reduction": 75,
+    "source": "메타카올린",
+    "tier": 5,
+    "volume": 800,
+    "notes": ""
+  },
+  "CoalGangue": {
+    "name": "CoalGangue",
+    "composition": {
+      "Si": 5,
+      "Al": 4,
+      "Fe": 1,
+      "O": 16
+    },
+    "co2_reduction": 70,
+    "source": "석탄 맥석",
+    "tier": 5,
+    "volume": 1000,
+    "notes": ""
+  }
+}

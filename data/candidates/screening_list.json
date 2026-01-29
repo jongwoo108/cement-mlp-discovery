@@ -1,0 +1,21 @@
+{
+  "total": 16,
+  "candidates": [
+    "BFS",
+    "SteelSlag",
+    "EAFSlag",
+    "FlyAshF",
+    "FlyAshC",
+    "BottomAsh",
+    "CopperSlag",
+    "RedMud",
+    "NickelSlag",
+    "SilicaFume",
+    "RiceHuskAsh",
+    "POFA",
+    "WasteGlass",
+    "CeramicWaste",
+    "Metakaolin",
+    "CoalGangue"
+  ]
+}

@@ -1,0 +1,19 @@
+baseline:
+  ca_leaching_rate: 0.0
+  csh_pairs: 12
+  material: C3S
+  si_coordination: 3.501498501498501
+grades:
+  A: 70
+  B: 50
+  C: 30
+  D: 0
+scoring:
+  thresholds:
+    min_co2_reduction: 50
+    min_total_score: 40
+  weights:
+    ca_activity: 0.2
+    co2_reduction: 0.3
+    csh_formation: 0.25
+    si_stability: 0.25

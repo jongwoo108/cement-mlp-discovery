@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-01-29T17:24:48.389909",
+  "total_screened": 16,
+  "top_candidates": [
+    "FlyAshC",
+    "EAFSlag",
+    "WasteGlass",
+    "CopperSlag",
+    "SteelSlag"
+  ],
+  "details": [
+    {
+      "name": "FlyAshC",
+      "score": 90.3,
+      "grade": "A",
+      "co2_reduction": 85
+    },
+    {
+      "name": "EAFSlag",
+      "score": 89.4,
+      "grade": "A",
+      "co2_reduction": 75
+    },
+    {
+      "name": "WasteGlass",
+      "score": 84.7,
+      "grade": "A",
+      "co2_reduction": 75
+    },
+    {
+      "name": "CopperSlag",
+      "score": 79.0,
+      "grade": "A",
+      "co2_reduction": 75
+    },
+    {
+      "name": "SteelSlag",
+      "score": 78.9,
+      "grade": "A",
+      "co2_reduction": 75
+    }
+  ]
+}

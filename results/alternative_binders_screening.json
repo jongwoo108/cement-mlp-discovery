@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "date": "2026-01-29T08:12:34.079655",
+    "simulation_time_ps": 10.0,
+    "n_water": 10,
+    "temperature_K": 300
+  },
+  "materials": {
+    "C3S": {
+      "co2_reduction": 0,
+      "ca_leaching": {
+        "n_ca": 9,
+        "initial": 3,
+        "final": 4,
+        "rate_per_ps": 0.0999000999000999
+      },
+      "si_coordination": {
+        "n_si": 3,
+        "avg_cn": 2.3333333333333335
+      },
+      "csh_formation": {
+        "initial_pairs": 2,
+        "final_pairs": 2,
+        "min_ca_si_dist": 2.872166070810823
+      }
+    },
+    "C2S": {
+      "co2_reduction": 20,
+      "ca_leaching": {
+        "n_ca": 8,
+        "initial": 6,
+        "final": 8,
+        "rate_per_ps": 0.1998001998001998
+      },
+      "si_coordination": {
+        "n_si": 4,
+        "avg_cn": 1.4547952047952049
+      },
+      "csh_formation": {
+        "initial_pairs": 2,
+        "final_pairs": 2,
+        "min_ca_si_dist": 2.7273931382359566
+      }
+    },
+    "Slag": {
+      "co2_reduction": 80,
+      "ca_leaching": {
+        "n_ca": 6,
+        "initial": 2,
+        "final": 2,
+        "rate_per_ps": 0.0
+      },
+      "si_coordination": {
+        "n_si": 4,
+        "avg_cn": 3.702047952047952
+      },
+      "csh_formation": {
+        "initial_pairs": 7,
+        "final_pairs": 2,
+        "min_ca_si_dist": 2.6756051583065865
+      }
+    },
+    "FlyAsh": {
+      "co2_reduction": 90,
+      "ca_leaching": {
+        "n_ca": 1,
+        "initial": 0,
+        "final": 0,
+        "rate_per_ps": 0.0
+      },
+      "si_coordination": {
+        "n_si": 4,
+        "avg_cn": 3.416833166833167
+      },
+      "csh_formation": {
+        "initial_pairs": 2,
+        "final_pairs": 2,
+        "min_ca_si_dist": 2.893840443188909
+      }
+    },
+    "Metakaolin": {
+      "co2_reduction": 70,
+      "ca_leaching": {
+        "n_ca": 0,
+        "initial": 0,
+        "final": 0,
+        "rate_per_ps": 0.0
+      },
+      "si_coordination": {
+        "n_si": 4,
+        "avg_cn": 1.0167332667332667
+      },
+      "csh_formation": {
+        "initial_pairs": 0,
+        "final_pairs": 0,
+        "min_ca_si_dist": 0.0
+      }
+    }
+  },
+  "scores": {
+    "C3S": {
+      "total": 26.66167166167166,
+      "details": {
+        "co2": 0.0,
+        "ca_leaching": 4.9950049950049955,
+        "si_stability": 16.666666666666668,
+        "csh_formation": 5.0
+      }
+    },
+    "C2S": {
+      "total": 32.26398601398601,
+      "details": {
+        "co2": 5.0,
+        "ca_leaching": 9.990009990009991,
+        "si_stability": 12.273976023976022,
+        "csh_formation": 5.0
+      }
+    },
+    "Slag": {
+      "total": 53.510239760239756,
+      "details": {
+        "co2": 20.0,
+        "ca_leaching": 5,
+        "si_stability": 23.51023976023976,
+        "csh_formation": 5.0
+      }
+    },
+    "FlyAsh": {
+      "total": 54.58416583416583,
+      "details": {
+        "co2": 22.5,
+        "ca_leaching": 5,
+        "si_stability": 22.084165834165834,
+        "csh_formation": 5.0
+      }
+    },
+    "Metakaolin": {
+      "total": 32.583666333666336,
+      "details": {
+        "co2": 17.5,
+        "ca_leaching": 5,
+        "si_stability": 10.083666333666335,
+        "csh_formation": 0.0
+      }
+    }
+  },
+  "selected": [
+    "FlyAsh",
+    "Slag",
+    "Metakaolin"
+  ]
+}
