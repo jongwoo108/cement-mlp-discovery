@@ -1,0 +1,84 @@
+{
+  "experiment": "Ca/Si Ratio Effect Analysis",
+  "parameters": {
+    "ca_si_ratios": [
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "n_si": 4,
+    "n_water": 8,
+    "md_steps": 2000
+  },
+  "results": [
+    {
+      "ca_si_ratio": 1.5,
+      "n_ca": 6,
+      "n_si": 4,
+      "n_o": 14,
+      "n_atoms_initial": 24,
+      "n_atoms_hydrated": 45,
+      "n_water": 7,
+      "opt_energy": -155.11447143554688,
+      "e_per_atom": -6.4631028175354,
+      "initial_energy": -246.90965270996094,
+      "final_energy": -268.7004699707031,
+      "delta_e": -21.790817260742188,
+      "n_steps": 2000,
+      "temperature": 300,
+      "success": true
+    },
+    {
+      "ca_si_ratio": 2.0,
+      "n_ca": 8,
+      "n_si": 4,
+      "n_o": 16,
+      "n_atoms_initial": 28,
+      "n_atoms_hydrated": 52,
+      "n_water": 8,
+      "opt_energy": -190.7875213623047,
+      "e_per_atom": -6.813839912414551,
+      "initial_energy": -288.21337890625,
+      "final_energy": -319.3373718261719,
+      "delta_e": -31.123992919921875,
+      "n_steps": 2000,
+      "temperature": 300,
+      "success": true
+    },
+    {
+      "ca_si_ratio": 2.5,
+      "n_ca": 10,
+      "n_si": 4,
+      "n_o": 18,
+      "n_atoms_initial": 32,
+      "n_atoms_hydrated": 47,
+      "n_water": 5,
+      "opt_energy": -226.08448791503906,
+      "e_per_atom": -7.065140247344971,
+      "initial_energy": -257.8529357910156,
+      "final_energy": -305.491943359375,
+      "delta_e": -47.639007568359375,
+      "n_steps": 2000,
+      "temperature": 300,
+      "success": true
+    },
+    {
+      "ca_si_ratio": 3.0,
+      "n_ca": 12,
+      "n_si": 4,
+      "n_o": 20,
+      "n_atoms_initial": 36,
+      "n_atoms_hydrated": 51,
+      "n_water": 5,
+      "opt_energy": -256.1059265136719,
+      "e_per_atom": -7.114053726196289,
+      "initial_energy": -291.7012023925781,
+      "final_energy": -329.30712890625,
+      "delta_e": -37.605926513671875,
+      "n_steps": 2000,
+      "temperature": 300,
+      "success": true
+    }
+  ]
+}

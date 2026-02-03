@@ -1,0 +1,496 @@
+{
+  "total_generated": 32,
+  "valid_composition": 26,
+  "rejected_count": 6,
+  "optimized_count": 5,
+  "all_results": [
+    {
+      "name": "structure_001",
+      "formula": "Ca2O6Si2",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 10,
+      "elements": [
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -78.17485046386719,
+      "energy_per_atom": -7.8174848556518555,
+      "max_force": 0.38632529973983765,
+      "mean_force": 0.12541808187961578,
+      "valid": true
+    },
+    {
+      "name": "structure_004",
+      "formula": "Ca4O12Si4",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 20,
+      "elements": [
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -155.44717407226562,
+      "energy_per_atom": -7.7723588943481445,
+      "max_force": 0.7065490484237671,
+      "mean_force": 0.19172130525112152,
+      "valid": true
+    },
+    {
+      "name": "structure_001",
+      "formula": "Al2Ca2FeO8Si",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "n_atoms": 14,
+      "elements": [
+        "Fe",
+        "Si",
+        "O",
+        "Al",
+        "Ca"
+      ],
+      "energy": -108.17352294921875,
+      "energy_per_atom": -7.726680278778076,
+      "max_force": 0.39145106077194214,
+      "mean_force": 0.08017541468143463,
+      "valid": true
+    },
+    {
+      "name": "structure_002",
+      "formula": "Ca3O7Si2",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 12,
+      "elements": [
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -91.80791473388672,
+      "energy_per_atom": -7.650659561157227,
+      "max_force": 0.5437555313110352,
+      "mean_force": 0.126657634973526,
+      "valid": true
+    },
+    {
+      "name": "structure_002",
+      "formula": "CaFe2O4Si",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "n_atoms": 8,
+      "elements": [
+        "Fe",
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -60.73897933959961,
+      "energy_per_atom": -7.592372417449951,
+      "max_force": 0.8516895174980164,
+      "mean_force": 0.22399665415287018,
+      "valid": true
+    },
+    {
+      "name": "structure_003",
+      "formula": "Al3Ca2O8Si",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 14,
+      "elements": [
+        "O",
+        "Al",
+        "Ca",
+        "Si"
+      ],
+      "energy": -105.843505859375,
+      "energy_per_atom": -7.560250282287598,
+      "max_force": 0.22652645409107208,
+      "mean_force": 0.08798006922006607,
+      "valid": true
+    },
+    {
+      "name": "structure_000",
+      "formula": "Al2CaO7Si2",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 12,
+      "elements": [
+        "Ca",
+        "Al",
+        "O",
+        "Si"
+      ],
+      "energy": -90.06865692138672,
+      "energy_per_atom": -7.505721569061279,
+      "max_force": 1.7707699537277222,
+      "mean_force": 0.40034592151641846,
+      "valid": true
+    },
+    {
+      "name": "structure_006",
+      "formula": "Ca2O7Si2",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 11,
+      "elements": [
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -82.32632446289062,
+      "energy_per_atom": -7.484211444854736,
+      "max_force": 0.28002411127090454,
+      "mean_force": 0.1002516895532608,
+      "valid": true
+    },
+    {
+      "name": "structure_005",
+      "formula": "AlCa2O6Si",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "n_atoms": 10,
+      "elements": [
+        "O",
+        "Al",
+        "Ca",
+        "Si"
+      ],
+      "energy": -74.58235931396484,
+      "energy_per_atom": -7.458235740661621,
+      "max_force": 0.18202808499336243,
+      "mean_force": 0.06189721077680588,
+      "valid": true
+    },
+    {
+      "name": "structure_005",
+      "formula": "CaMg2O10Si3",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 16,
+      "elements": [
+        "Mg",
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -118.0023193359375,
+      "energy_per_atom": -7.375144958496094,
+      "max_force": 1.3470914363861084,
+      "mean_force": 0.2382880002260208,
+      "valid": true
+    },
+    {
+      "name": "structure_006",
+      "formula": "Ca2MgO6Si",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 10,
+      "elements": [
+        "Mg",
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -69.03125,
+      "energy_per_atom": -6.903124809265137,
+      "max_force": 0.15942585468292236,
+      "mean_force": 0.038772761821746826,
+      "valid": true
+    },
+    {
+      "name": "structure_005",
+      "formula": "AlCa2O4Si",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 8,
+      "elements": [
+        "O",
+        "Al",
+        "Ca",
+        "Si"
+      ],
+      "energy": -53.874168395996094,
+      "energy_per_atom": -6.734271049499512,
+      "max_force": 0.9651591777801514,
+      "mean_force": 0.13363219797611237,
+      "valid": true
+    },
+    {
+      "name": "structure_004",
+      "formula": "AlCa2O4Si",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 8,
+      "elements": [
+        "Ca",
+        "Al",
+        "O",
+        "Si"
+      ],
+      "energy": -53.28855514526367,
+      "energy_per_atom": -6.661069393157959,
+      "max_force": 0.7726927399635315,
+      "mean_force": 0.2700861096382141,
+      "valid": true
+    },
+    {
+      "name": "structure_002",
+      "formula": "CaMgO6Si",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 9,
+      "elements": [
+        "Mg",
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -58.75947570800781,
+      "energy_per_atom": -6.528830528259277,
+      "max_force": 0.4072645902633667,
+      "mean_force": 0.16418421268463135,
+      "valid": true
+    },
+    {
+      "name": "structure_006",
+      "formula": "Al2CaO2Si",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 6,
+      "elements": [
+        "O",
+        "Al",
+        "Ca",
+        "Si"
+      ],
+      "energy": -36.17718505859375,
+      "energy_per_atom": -6.029531002044678,
+      "max_force": 1.1143395900726318,
+      "mean_force": 0.2245166301727295,
+      "valid": true
+    },
+    {
+      "name": "structure_007",
+      "formula": "Al2CaFe2O",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "n_atoms": 6,
+      "elements": [
+        "Fe",
+        "O",
+        "Al",
+        "Ca"
+      ],
+      "energy": -34.41073989868164,
+      "energy_per_atom": -5.735123157501221,
+      "max_force": 1.0711169242858887,
+      "mean_force": 0.13102951645851135,
+      "valid": true
+    },
+    {
+      "name": "structure_001",
+      "formula": "Ca4Mg2O4Si2",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 12,
+      "elements": [
+        "Mg",
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -65.47820281982422,
+      "energy_per_atom": -5.456516742706299,
+      "max_force": 1.0233381986618042,
+      "mean_force": 0.11585023999214172,
+      "valid": true
+    },
+    {
+      "name": "structure_001",
+      "formula": "AlCaOSi3",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 6,
+      "elements": [
+        "Si",
+        "O",
+        "Al",
+        "Ca"
+      ],
+      "energy": -31.71587562561035,
+      "energy_per_atom": -5.285979270935059,
+      "max_force": 0.4457167088985443,
+      "mean_force": 0.08005942404270172,
+      "valid": true
+    },
+    {
+      "name": "structure_005",
+      "formula": "Ca2OSi",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 4,
+      "elements": [
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -20.976890563964844,
+      "energy_per_atom": -5.244222640991211,
+      "max_force": 0.6129525303840637,
+      "mean_force": 0.10439110547304153,
+      "valid": true
+    },
+    {
+      "name": "structure_000",
+      "formula": "CaMgOSi",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 4,
+      "elements": [
+        "Mg",
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -19.48839569091797,
+      "energy_per_atom": -4.872098922729492,
+      "max_force": 0.548496425151825,
+      "mean_force": 0.09516815096139908,
+      "valid": true
+    },
+    {
+      "name": "structure_007",
+      "formula": "AlCa2OSi",
+      "source": "phase1_Ca_Si_Al_O",
+      "n_atoms": 5,
+      "elements": [
+        "Si",
+        "O",
+        "Al",
+        "Ca"
+      ],
+      "energy": -24.27055549621582,
+      "energy_per_atom": -4.854111194610596,
+      "max_force": 0.04908328503370285,
+      "mean_force": 0.017161523923277855,
+      "valid": true
+    },
+    {
+      "name": "structure_007",
+      "formula": "CaMgOSi",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 4,
+      "elements": [
+        "Mg",
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -19.282344818115234,
+      "energy_per_atom": -4.820586204528809,
+      "max_force": 0.3359171748161316,
+      "mean_force": 0.05970354750752449,
+      "valid": true
+    },
+    {
+      "name": "structure_000",
+      "formula": "Ca6O2Si2",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 10,
+      "elements": [
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -47.342472076416016,
+      "energy_per_atom": -4.734247207641602,
+      "max_force": 0.45383012294769287,
+      "mean_force": 0.1618809998035431,
+      "valid": true
+    },
+    {
+      "name": "structure_007",
+      "formula": "Ca6O2Si2",
+      "source": "phase2_Ca_Si_O",
+      "n_atoms": 10,
+      "elements": [
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -47.216758728027344,
+      "energy_per_atom": -4.721675872802734,
+      "max_force": 0.42498138546943665,
+      "mean_force": 0.11681675910949707,
+      "valid": true
+    },
+    {
+      "name": "structure_003",
+      "formula": "Ca2MgOSi",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 5,
+      "elements": [
+        "Mg",
+        "O",
+        "Ca",
+        "Si"
+      ],
+      "energy": -23.111186981201172,
+      "energy_per_atom": -4.622237205505371,
+      "max_force": 0.022572685033082962,
+      "mean_force": 0.005976217798888683,
+      "valid": true
+    },
+    {
+      "name": "structure_004",
+      "formula": "Ca3Mg4O2Si3",
+      "source": "phase2_Ca_Si_Mg_O",
+      "n_atoms": 12,
+      "elements": [
+        "Mg",
+        "Si",
+        "O",
+        "Ca"
+      ],
+      "energy": -51.63041687011719,
+      "energy_per_atom": -4.302534580230713,
+      "max_force": 0.322187215089798,
+      "mean_force": 0.04057009518146515,
+      "valid": true
+    }
+  ],
+  "optimized_structures": [
+    {
+      "name": "structure_001",
+      "formula": "Ca2O6Si2",
+      "source": "phase2_Ca_Si_O",
+      "initial_E_per_atom": -7.8174848556518555,
+      "final_E_per_atom": -5.293220520019531,
+      "energy_change": -0.04344749450683594,
+      "converged": true,
+      "steps": 9
+    },
+    {
+      "name": "structure_004",
+      "formula": "Ca4O12Si4",
+      "source": "phase2_Ca_Si_O",
+      "initial_E_per_atom": -7.7723588943481445,
+      "final_E_per_atom": -6.72914981842041,
+      "energy_change": -0.5446434020996094,
+      "converged": true,
+      "steps": 62
+    },
+    {
+      "name": "structure_001",
+      "formula": "Al2Ca2FeO8Si",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "initial_E_per_atom": -7.726680278778076,
+      "final_E_per_atom": -5.293220043182373,
+      "energy_change": -0.04344367980957031,
+      "converged": true,
+      "steps": 9
+    },
+    {
+      "name": "structure_002",
+      "formula": "Ca3O7Si2",
+      "source": "phase2_Ca_Si_O",
+      "initial_E_per_atom": -7.650659561157227,
+      "final_E_per_atom": -7.608767509460449,
+      "energy_change": -0.13116073608398438,
+      "converged": true,
+      "steps": 7
+    },
+    {
+      "name": "structure_002",
+      "formula": "CaFe2O4Si",
+      "source": "phase1_Ca_Si_Al_Fe_O",
+      "initial_E_per_atom": -7.592372417449951,
+      "final_E_per_atom": -7.608767509460449,
+      "energy_change": -0.13116073608398438,
+      "converged": true,
+      "steps": 7
+    }
+  ]
+}

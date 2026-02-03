@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       GdCGd2Zn
+_chemical_formula_sum              "Gd3 C1 Zn1"
+_cell_length_a       4.924571157261358
+_cell_length_b       4.925184368827188
+_cell_length_c       4.9278459548950195
+_cell_angle_alpha    89.98740763641031
+_cell_angle_beta     89.98735299410576
+_cell_angle_gamma    89.98302948534328
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.022702351212501526  0.10521504282951355  0.2586459517478943  1.0000
+  C   C1        1.0  0.022871214896440506  0.604941189289093  0.2583710849285126  1.0000
+  Gd  Gd2       1.0  0.022668808698654175  0.6053314208984376  0.7584303617477417  1.0000
+  Gd  Gd3       1.0  0.5227115750312805  0.6052991151809693  0.2587205469608307  1.0000
+  Zn  Zn1       1.0  0.5228307843208313  0.1051192507147789  0.7583634853363037  1.0000

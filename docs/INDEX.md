@@ -1,158 +1,122 @@
-# 📚 시멘트 연구 프로젝트 문서
+# 문서 인덱스
 
-> **탄소중립 시멘트 결합재의 AI 기반 계산 설계**
-
----
-
-## 📑 문서 목차
-
-이 `docs/` 폴더는 AI 에이전트와 연구자들이 프로젝트를 이해하고 계속할 수 있도록 포괄적인 문서를 포함합니다.
-
-### 노트북 결과 문서 (번호 = 노트북 매칭)
-
-1. **[01_Project_Overview.md](01_Project_Overview.md)** - 프로젝트 배경, 목표, 방법론
-2. **[02_STRUCTURE_ANALYSIS.md](02_STRUCTURE_ANALYSIS.md)** - C3S 구조 분석 (RDF, 결합, 배위수)
-3. **[03_CSH_FORMATION.md](03_CSH_FORMATION.md)** - C-S-H 젤 형성 시뮬레이션 (Ca 용출, Si 배위)
-4. **[04_Alternative_Binders_Results.md](04_Alternative_Binders_Results.md)** - 대체 결합재 스크리닝 결과 ✅ Phase 2-1 완료
-
-### 프로젝트 관리 문서
-
-- **[PIPELINE_PLAN.md](PIPELINE_PLAN.md)** - AI 기반 대체재 발견 연구 계획서 (논문용) ⭐ NEW
-- **[PHASE2_PLAN.md](PHASE2_PLAN.md)** - Phase 2 실행 계획서 (구버전)
-- **[WORK_LOG.md](WORK_LOG.md)** - 완료된 작업 로그
-- **[FILE_STRUCTURE.md](FILE_STRUCTURE.md)** - 파일 구조 및 경로
-- **[RESULTS_SUMMARY.md](RESULTS_SUMMARY.md)** - 주요 결과 및 수치 데이터
-- **[API_REFERENCE.md](API_REFERENCE.md)** - 코드 패턴 및 재사용 함수
-
-### 빠른 참조
-
-- **세션 재개**: [SESSION_RESUME_TEMPLATE.md](SESSION_RESUME_TEMPLATE.md) 참조
-- **코드 예제**: [CODE_EXAMPLES.md](CODE_EXAMPLES.md) 참조
-- **데이터 사전**: [DATA_DICTIONARY.md](DATA_DICTIONARY.md) 참조
+> AI 기반 탄소중립 시멘트 바인더 전산 설계
 
 ---
 
-## 🎯 AI 에이전트용
+## 빠른 링크
 
-### 컨텍스트 로딩 우선순위
+- **[FINAL_RESULTS.md](FINAL_RESULTS.md)** - 최종 연구 결과 요약
+- **[RESEARCH_ROADMAP.md](RESEARCH_ROADMAP.md)** - 연구 로드맵 (추가 실험 계획)
+- **[submission/FINAL_PAPER.md](submission/FINAL_PAPER.md)** - 제출용 논문 (영문)
+- **[PIPELINE_PLAN.md](PIPELINE_PLAN.md)** - 연구 파이프라인 계획
 
-프로젝트 작업 재개 시 AI 에이전트는 다음 순서로 문서를 읽어야 합니다:
+---
 
-1. **PROJECT_OVERVIEW.md** - 전체 그림 이해
-2. **FILE_STRUCTURE.md** - 필요한 파일 위치 파악
-3. **RESULTS_SUMMARY.md** - 완료된 작업 확인
-4. **관련 WORKFLOW_*.md** - 특정 작업 이해
-5. **API_REFERENCE.md** - 확립된 코드 패턴 사용
+## 📁 폴더 구조
 
-### 주요 정보 요약
-
-```python
-# 프로젝트 루트
-WORK_DIR = Path("C:/cement_final")
-
-# 현재 상태 (Phase 2-1 완료)
-- 환경: ✅ 완료 (cement_final conda env)
-- 01_노트북: ✅ 완료 (C3S 최적화 + 수화)
-- 02_노트북: ✅ 완료 (구조 분석, RDF, 결합)
-- 03_노트북: ✅ 완료 (C-S-H 젤 형성, 10 ps MD)
-- 04_노트북: ✅ 완료 (대체 결합재 스크리닝) ← NEW
-
-# Phase 2-1 결과 (선별된 재료)
-- Fly Ash: 54.6점, CO₂ 90% 저감
-- Slag: 53.5점, CO₂ 80% 저감  
-- Metakaolin: 32.6점, CO₂ 70% 저감
-
-# Phase 2 진행 상황
-- Phase 2-1: ✅ 완료 (04_노트북)
-- Phase 2-2: ⏳ 대기 (05_노트북 - 장시간 MD 100 ps)
-- Phase 2-2: ⏳ 대기 (06_노트북 - Ca/Si 비율 연구)
-- Phase 2-3: ⏳ 대기 (07_노트북 - 종합 비교 분석)
-
-# 상세 계획서
-- docs/PHASE2_PLAN.md 참조
+```
+docs/
+├── planning/           ← 연구 계획 문서
+├── notebook_results/   ← 노트북 실험 결과
+├── submission/         ← 대회 제출물
+└── (루트)              ← 핵심 참조 문서
 ```
 
 ---
 
-## 📊 문서 표준
+## 📋 submission/ (제출물)
 
-### 파일 명명 규칙
-
-```
-CATEGORY_TOPIC.md
-```
-
-예시:
-- `WORKFLOW_01_OPTIMIZATION.md`
-- `RESULTS_SUMMARY.md`
-- `API_REFERENCE.md`
-
-### 마크다운 구조
-
-모든 문서 파일은 다음 구조를 따릅니다:
-
-```markdown
-# 제목
-
-> 간단한 설명
+| 문서 | 설명 |
+|------|------|
+| [FINAL_PAPER.md](submission/FINAL_PAPER.md) | **최종 연구보고서 (영문)** |
+| [PAPER_SUBMISSION.md](submission/PAPER_SUBMISSION.md) | 연구보고서 초안 |
+| [PAPER_OUTLINE.md](submission/PAPER_OUTLINE.md) | 논문 Outline |
+| [AI_USAGE_REPORT.md](submission/AI_USAGE_REPORT.md) | **AI 활용 보고서** |
+| [DATA_LIST.md](submission/DATA_LIST.md) | **활용 데이터 목록** |
 
 ---
 
-## 섹션 1
+## 📊 notebook_results/ (실험 결과)
 
-내용...
-
-## 섹션 2
-
-내용...
-
----
-
-**최종 업데이트**: YYYY-MM-DD
-**작성자**: 역할/이름
-**상태**: 활성/완료/초안
-```
-
----
-
-## 🔄 업데이트 로그
-
-| 날짜 | 문서 | 변경 사항 | 작성자 |
-|------|------|-----------|--------|
-| 2026-01-28 | 전체 | 초기 문서 생성 | Intern |
-| 2026-01-28 | WORKFLOW_02_STRUCTURE_ANALYSIS.md | 02 노트북 문서 추가 | AI Co-Scientist |
-| 2026-01-28 | RESULTS_SUMMARY.md | 구조 분석 결과 추가 | AI Co-Scientist |
-| 2026-01-28 | WORK_LOG.md | 세션 4 추가 | AI Co-Scientist |
-| 2026-01-29 | PHASE2_PLAN.md | Phase 2 실행 계획서 추가 | AI Co-Scientist |
-| 2026-01-29 | 04_Alternative_Binders_Results.md | Phase 2-1 결과 문서 추가 | AI Co-Scientist |
-| 2026-01-29 | INDEX.md | Phase 2-1 완료 반영, 파일명 정리 | AI Co-Scientist |
+| 문서 | 노트북 | 설명 |
+|------|:------:|------|
+| [04_Screening_Results.md](notebook_results/04_Screening_Results.md) | 04 | 산업폐기물 스크리닝 결과 |
+| [05_Results_Analysis.md](notebook_results/05_Results_Analysis.md) | 05 | 결과 분석 |
+| [06_Paper_Figures.md](notebook_results/06_Paper_Figures.md) | 06 | 논문 Figure (1-4) |
+| [08_MatterGen_Guide.md](notebook_results/08_MatterGen_Guide.md) | 08 | MatterGen 사용 가이드 |
+| [11_Final_Comparison.md](notebook_results/11_Final_Comparison.md) | 11 | 최종 비교 (산업폐기물 vs MatterGen) |
+| [12_Final_Figures.md](notebook_results/12_Final_Figures.md) | 12 | 최종 Figure (5-7, S1) |
+| [13_Mechanical_Properties.md](notebook_results/13_Mechanical_Properties.md) | 13 | 기계적 특성 결과 |
+| [14_Supercell_Experiment.md](notebook_results/14_Supercell_Experiment.md) | 14 | Supercell 실험 (부정적 결과) |
+| [15_Ca_Si_Ratio_Results.md](notebook_results/15_Ca_Si_Ratio_Results.md) | 15 | Ca/Si 비율 효과 분석 |
+| [16_Ca_Rich_MatterGen_Results.md](notebook_results/16_Ca_Rich_MatterGen_Results.md) | 16 | Ca-rich 구조 생성 |
+| [17_Alkali_Activation_Results.md](notebook_results/17_Alkali_Activation_Results.md) | 17 | **알칼리 활성화 (MatterGen 활용 경로 발견!)** |
 
 ---
 
-## 📝 문서 기여 방법
+## 📝 planning/ (연구 계획)
 
-문서 업데이트 시:
-
-1. **날짜 업데이트**: "최종 업데이트" 필드 변경
-2. **로그 추가**: UPDATE_LOG.md에 변경 사항 기록
-3. **상호 참조**: 관련 문서의 링크 업데이트
-4. **버전 관리**: 명확한 메시지로 커밋
-
----
-
-## 🔍 검색 가이드
-
-특정 정보 찾기:
-
-- **환경 설정**: ENVIRONMENT_SETUP.md
-- **파일 위치**: FILE_STRUCTURE.md
-- **코드 패턴**: API_REFERENCE.md
-- **결과/데이터**: RESULTS_SUMMARY.md
-- **오류**: TROUBLESHOOTING.md
-- **워크플로우**: WORKFLOW_*.md
+| 문서 | 설명 |
+|------|------|
+| [01_Project_Overview.md](planning/01_Project_Overview.md) | 프로젝트 개요 및 목표 |
+| [02_Structure_Analysis.md](planning/02_Structure_Analysis.md) | C3S 구조 분석 |
+| [03_CSH_Formation.md](planning/03_CSH_Formation.md) | C-S-H 젤 형성 분석 |
+| [04_Alternative_Binders.md](planning/04_Alternative_Binders.md) | 대체 바인더 초기 결과 |
+| [05_Phase2_Plan.md](planning/05_Phase2_Plan.md) | 2단계 계획 |
+| [06_Results_Summary.md](planning/06_Results_Summary.md) | 결과 요약 (초기) |
+| [07_Work_Log.md](planning/07_Work_Log.md) | 작업 로그 |
 
 ---
 
-**최종 업데이트**: 2026-01-29
-**관리자**: 연구팀
-**버전**: 2.0.0 (Phase 2-1 완료)
+## 📚 참조 문서 (루트)
+
+| 문서 | 설명 |
+|------|------|
+| [FINAL_RESULTS.md](FINAL_RESULTS.md) | **최종 연구 결과 요약** |
+| [RESEARCH_ROADMAP.md](RESEARCH_ROADMAP.md) | **연구 로드맵 (추가 실험 계획)** |
+| [PIPELINE_PLAN.md](PIPELINE_PLAN.md) | 연구 파이프라인 전체 계획 |
+| [API_REFERENCE.md](API_REFERENCE.md) | 코드 패턴 및 재사용 함수 |
+| [FILE_STRUCTURE.md](FILE_STRUCTURE.md) | 프로젝트 파일 구조 |
+| [README.md](README.md) | 문서 안내 |
+
+---
+
+## 핵심 결과 요약
+
+### 최종 순위 (수화 반응 기반)
+
+| 순위 | 재료 | 출처 | 최종 점수 | CO₂ 저감 |
+|:----:|------|------|:---------:|:--------:|
+| 1 | EAFSlag | 산업폐기물 | 77.8 | 75% |
+| 2 | WasteGlass | 산업폐기물 | 75.7 | 75% |
+| 3 | FlyAshC | 산업폐기물 | 75.1 | 85% |
+
+### 출처별 비교
+
+| 출처 | 평균 점수 | CO₂ 저감 |
+|------|:---------:|:--------:|
+| 산업폐기물 | 74.5 | 75-85% |
+| MatterGen | 63.0 | 90% |
+
+### 기계적 특성 (MatterGen)
+
+| 지표 | Portland Cement | MatterGen (평균) |
+|------|:---------------:|:----------------:|
+| Bulk Modulus | 45 GPa | **101.8 GPa** |
+| Young's Modulus | 25 GPa | **152.7 GPa** |
+
+---
+
+## 환경 정보
+
+| 환경 | 용도 |
+|------|------|
+| `cement_final` | CHGNet 분석, 메인 파이프라인 |
+| `base` | MatterGen 구조 생성 |
+
+---
+
+**최종 수정**: 2026년 1월 30일  
+**버전**: 3.0.0 (폴더 구조 재정리)  
+**상태**: 완료

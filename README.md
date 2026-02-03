@@ -1,4 +1,4 @@
-# 🏗️ AI-Driven Computational Design of Carbon-Neutral Cement Binders
+# AI-Driven Computational Design of Carbon-Neutral Cement Binders
 
 > **Personal Challenge 2026**  
 > Computational Materials Science Research Project
@@ -6,152 +6,146 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![CHGNet](https://img.shields.io/badge/CHGNet-v0.4+-green.svg)](https://github.com/CederGroupHub/chgnet)
+[![MatterGen](https://img.shields.io/badge/MatterGen-MS%20Research-purple.svg)](https://github.com/microsoft/mattergen)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Problem Statement](#-problem-statement)
-- [Research Approach](#-research-approach)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Results](#-results)
-- [Contributing](#-contributing)
-- [Acknowledgments](#-acknowledgments)
-- [License](#-license)
-
----
-
-## 🎯 Overview
-
-This project applies **machine learning potentials (MLPs)** and **molecular dynamics (MD)** simulations to accelerate the discovery of **carbon-neutral cement binders**. By leveraging CHGNet—a universal neural network potential trained on Materials Project data—we achieve DFT-level accuracy at 1000× faster computation speeds.
-
-### Key Features
-
-- ✅ **DFT-Accurate MLP**: CHGNet predictions within 0.15% of DFT calculations
-- ⚡ **GPU-Accelerated**: 10-50× faster on NVIDIA GPUs
-- 🔬 **Atomistic Simulations**: Full hydration reaction mechanisms at nanoscale
-- 🌍 **90% CO₂ Reduction**: Novel binders achieve cement-like strength with minimal emissions
-- 📊 **Automated Workflow**: From structure optimization to property prediction
+- [Overview](#overview)
+- [Key Results](#key-results)
+- [Research Pipeline](#research-pipeline)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results Summary](#results-summary)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 ---
 
-## 🌍 Problem Statement
+## Overview
 
-### The Challenge
+This project applies **machine learning potentials (MLPs)** and **generative AI** to accelerate the discovery of **carbon-neutral cement binders**. We combine:
 
-- **Cement Industry**: 8% of global CO₂ emissions
-- **High-Temperature Process**: 1,450°C clinkerization accounts for 90% of emissions
-- **Slow R&D**: Traditional trial-and-error approaches take years
+1. **CHGNet** - Universal neural network potential for atomistic simulations
+2. **MatterGen** - Microsoft's generative AI for novel material discovery
 
-### Our Solution
+### Key Achievements
 
-Replace experimental screening with:
-1. **Computational screening** using machine learning potentials
-2. **Molecular dynamics** to predict hydration mechanisms
-3. **AI-driven discovery** of novel low-carbon formulations
-
-**Target**: Identify alternative binders with ≥80% emission reduction while maintaining mechanical performance (25-40 MPa compressive strength)
+| Metric | Value |
+|--------|-------|
+| **Industrial Waste Candidates Screened** | 16 |
+| **Top Candidates Identified** | 5 (FlyAshC, EAFSlag, WasteGlass, CopperSlag, SteelSlag) |
+| **AI-Generated Structures** | 32 (26 valid compositions) |
+| **Maximum CO2 Reduction** | 90% |
+| **Best AI Structure** | Ca2Si2O6 (E/atom = -7.82 eV) |
 
 ---
 
-## 🔬 Research Approach
+## Key Results
 
-### Multi-Scale Computational Framework
+### Top 5 Industrial Waste Candidates
+
+| Rank | Material | Score | CO2 Reduction |
+|:----:|----------|:-----:|:-------------:|
+| 1 | FlyAshC | 90.3 | 85% |
+| 2 | EAFSlag | 89.4 | 75% |
+| 3 | WasteGlass | 84.7 | 75% |
+| 4 | CopperSlag | 79.0 | 75% |
+| 5 | SteelSlag | 78.9 | 75% |
+
+### MatterGen AI-Generated Top Structures
+
+| Rank | Composition | E/atom (eV) | Source |
+|:----:|-------------|:-----------:|--------|
+| 1 | Ca2Si2O6 | -7.817 | Phase 2 (Ca-Si-O) |
+| 2 | Ca4Si4O12 | -7.772 | Phase 2 (Ca-Si-O) |
+| 3 | Al2Ca2FeSiO8 | -7.727 | Phase 1 (Ca-Si-Al-Fe-O) |
+| 4 | Ca3Si2O7 | -7.651 | Phase 2 (Ca-Si-O) |
+| 5 | CaFe2SiO4 | -7.592 | Phase 1 (Ca-Si-Al-Fe-O) |
+
+---
+
+## Research Pipeline
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  1. STRUCTURE OPTIMIZATION                                  │
-│     └─ CHGNet MLP (DFT-level accuracy, 1000× faster)       │
-├─────────────────────────────────────────────────────────────┤
-│  2. HYDRATION SIMULATION                                    │
-│     └─ MD @ 300K (C₃S + H₂O → C-S-H gel formation)        │
-├─────────────────────────────────────────────────────────────┤
-│  3. ALTERNATIVE SCREENING                                   │
-│     └─ Steel slag, fly ash, CSA, geopolymer                │
-├─────────────────────────────────────────────────────────────┤
-│  4. AI GENERATION                                           │
-│     └─ MatterGen (novel compositions)                       │
-└─────────────────────────────────────────────────────────────┘
++------------------+     +------------------+     +------------------+
+|   INPUT DATA     |     |   CHGNet         |     |   VALIDATION     |
+|                  | --> |   Screening      | --> |   & Comparison   |
+| - C3S Reference  |     | - Optimization   |     | - Energy         |
+| - 16 Industrial  |     | - MD Simulation  |     | - Stability      |
+|   Waste          |     | - CSH Formation  |     | - CO2 Reduction  |
++------------------+     +------------------+     +------------------+
+                               |
+                               v
+                    +------------------+
+                    |   MatterGen      |
+                    |   AI Generation  |
+                    | - 32 Structures  |
+                    | - Novel Compos.  |
+                    +------------------+
 ```
 
-### Technology Stack
+### Workflow Stages
 
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **MLP** | CHGNet v0.4 | Universal neural network potential |
-| **MD Engine** | ASE + CHGNet | Molecular dynamics simulations |
-| **Database** | Materials Project | DFT reference data |
-| **Analysis** | NumPy, SciPy | Post-processing and statistics |
-| **Visualization** | Matplotlib | Scientific plotting |
-| **Compute** | PyTorch (CUDA) | GPU acceleration |
+1. **Structure Analysis** - C3S baseline characterization
+2. **Hydration Simulation** - MD simulations of C-S-H formation
+3. **Industrial Waste Screening** - 16 candidates evaluated
+4. **MatterGen Generation** - AI-driven structure discovery
+5. **Validation & Comparison** - CHGNet energy calculations
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 cement_final/
+├── notebooks/pipeline/           # Jupyter notebooks (main workflow)
+│   ├── 01_Setup_Validation.ipynb    # Environment setup
+│   ├── 02_Baseline_Reference.ipynb  # C3S baseline
+│   ├── 03_Candidate_Database.ipynb  # Candidate structures
+│   ├── 04_Screening_Pipeline.ipynb  # CHGNet screening
+│   ├── 05_Results_Analysis.ipynb    # Results analysis
+│   ├── 06_Paper_Figures.ipynb       # Publication figures
+│   ├── 07_Visualization_Test.ipynb  # Visualization tests
+│   ├── 08_MatterGen_Generation.ipynb  # MatterGen structure generation
+│   ├── 09_MatterGen_Validation.ipynb  # MatterGen validation
+│   ├── 10_MatterGen_Hydration.ipynb   # MatterGen hydration simulation
+│   ├── 11_Final_Comparison.ipynb      # Final comparison
+│   └── 12_Final_Figures.ipynb         # Final paper figures
 │
-├── 📓 notebooks/                    # Jupyter notebooks (main workflow)
-│   ├── 01_Environment_Setup.ipynb  # Setup and CHGNet testing
-│   ├── 02_C3S_Optimization.ipynb   # Structure optimization
-│   ├── 03_Hydration_Simulation.ipynb # MD simulations
-│   ├── 04_Alternative_Screening.ipynb # Material screening
-│   └── 05_Results_Analysis.ipynb   # Final analysis and figures
+├── structures/                   # Crystal structure files
+│   ├── C3S_*.cif                # C3S structures
+│   └── mattergen_optimized/     # Optimized MatterGen structures
 │
-├── 🔬 structures/                   # Crystal structure files
-│   ├── C3S_initial.cif             # Initial C₃S structure
-│   ├── C3S_optimized.cif           # Optimized structure
-│   ├── C3S_hydration_initial.cif   # C₃S + water system
-│   └── C3S_hydration_final.cif     # After MD simulation
+├── data/
+│   ├── mattergen/               # MatterGen generated structures
+│   └── results/                 # Analysis results (JSON, CSV)
 │
-├── 🎬 trajectories/                 # MD trajectory files
-│   ├── c3s_optimization.traj       # Optimization trajectory
-│   ├── hydration.traj              # Hydration MD trajectory
-│   └── *.log                       # Simulation logs
+├── figures/
+│   └── paper/                   # Publication-ready figures (Fig1-7)
 │
-├── 📊 figures/                      # Plots and visualizations
-│   ├── C3S_optimization_analysis.png
-│   ├── hydration_analysis.png
-│   ├── md_progress_realtime.png
-│   └── paper/                      # Publication-ready figures
-│
-├── 📈 results/                      # Numerical results
-│   ├── energies.csv                # Energy data
-│   ├── analysis_data.json          # Processed analysis
-│   └── summary.txt                 # Results summary
-│
-├── 📝 paper/                        # Manuscript files
-│   ├── manuscript/                 # LaTeX source
-│   ├── supplementary/              # Supporting information
-│   └── submission/                 # Final submission files
-│
-├── 📋 logs/                         # Log files
-│   ├── hydration.log               # MD simulation log
-│   └── research_log.txt            # Research notes
-│
-├── environment.yml                  # Conda environment
-├── README.md                        # This file
-├── .gitignore                       # Git ignore rules
-└── LICENSE                          # MIT License
+├── trajectories/                # MD trajectory files
+├── docs/                        # Documentation
+├── src/                         # Source code modules
+├── mattergen/                   # MatterGen repository (cloned)
+├── environment.yml              # Conda environment
+└── README.md                    # This file
 ```
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Prerequisites
 
-- **Python**: 3.10 or higher
-- **CUDA**: 11.8+ (optional, for GPU acceleration)
-- **RAM**: 8GB minimum, 16GB+ recommended
-- **Storage**: 5GB for environment + data
+- Python 3.10+
+- CUDA 11.8+ (for GPU acceleration)
+- 16GB+ RAM recommended
 
-### Option 1: Conda (Recommended)
+### Setup
 
 ```bash
 # Clone repository
@@ -160,314 +154,121 @@ cd cement-research
 
 # Create environment
 conda env create -f environment.yml
-conda activate cement
+conda activate cement_final
 
 # Verify installation
-python -c "import torch; from chgnet.model import CHGNet; print('✅ Ready!')"
+python -c "from chgnet.model import CHGNet; print('CHGNet OK')"
 ```
 
-### Option 2: pip
+### MatterGen Setup (Optional)
+
+For AI structure generation:
 
 ```bash
-# Create virtual environment
-python -m venv cement_env
-source cement_env/bin/activate  # On Windows: cement_env\Scripts\activate
+# Clone MatterGen
+git clone https://github.com/microsoft/mattergen.git
+cd mattergen
 
-# Install PyTorch (CPU)
-pip install torch torchvision torchaudio
+# Install (in base environment)
+pip install -e .
 
-# Install research packages
-pip install chgnet mp-api pymatgen ase matplotlib scipy psutil
-
-# Verify
-python -c "from chgnet.model import CHGNet; print('✅ Ready!')"
+# Download checkpoints
+git lfs pull
 ```
-
-### GPU Support (Optional)
-
-For NVIDIA GPU acceleration:
-
-```bash
-# Check CUDA version
-nvidia-smi
-
-# Install PyTorch with CUDA (example for CUDA 11.8)
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-```
-
-**Expected speedup**: 10-50× faster than CPU
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Quick Start
 
-```python
-# 1. Launch Jupyter
+```bash
+# Activate environment
+conda activate cement_final
+
+# Launch Jupyter
 jupyter notebook
 
-# 2. Open notebooks in order:
-#    - 01_Environment_Setup.ipynb
-#    - 02_C3S_Optimization.ipynb
-#    - 03_Hydration_Simulation.ipynb
-
-# 3. Run all cells (Shift + Enter)
+# Run notebooks in order: 01 -> 12
 ```
 
-### Basic Workflow
+### Key Notebooks
 
-#### Step 1: Structure Optimization
-
-```python
-from chgnet.model import CHGNet
-from chgnet.model.dynamics import CHGNetCalculator
-from ase.io import read
-from ase.optimize import BFGS
-
-# Load CHGNet
-chgnet = CHGNet.load()
-
-# Load structure
-atoms = read('structures/C3S_initial.cif')
-
-# Optimize
-calc = CHGNetCalculator(model=chgnet)
-atoms.calc = calc
-optimizer = BFGS(atoms)
-optimizer.run(fmax=0.05)
-
-# Result: Optimized structure with Fmax < 0.05 eV/Å
-```
-
-#### Step 2: Hydration Simulation
-
-```python
-from chgnet.model.dynamics import MolecularDynamics
-
-# Setup MD
-md = MolecularDynamics(
-    atoms=system,
-    model=chgnet,
-    ensemble='nvt',
-    temperature=300,  # K
-    timestep=1.0,     # fs
-    trajectory='trajectories/hydration.traj'
-)
-
-# Run simulation
-md.run(steps=10000)  # 10 ps
-
-# Result: C-S-H gel formation trajectory
-```
-
-#### Step 3: Analysis
-
-```python
-from ase.io.trajectory import Trajectory
-import matplotlib.pyplot as plt
-
-# Load trajectory
-traj = Trajectory('trajectories/hydration.traj')
-
-# Analyze Ca-O distances
-for atoms in traj:
-    ca_o_dist = analyze_bonding(atoms)
-    
-# Plot results
-plt.plot(times, distances)
-plt.xlabel('Time (ps)')
-plt.ylabel('Ca-O Distance (Å)')
-plt.savefig('figures/hydration_analysis.png')
-```
+| Notebook | Description | Environment |
+|----------|-------------|-------------|
+| 01-07 | CHGNet screening pipeline | cement_final |
+| 08 | MatterGen structure generation | base |
+| 09-12 | Validation and analysis | cement_final |
 
 ---
 
-## 📊 Results
+## Results Summary
 
-### Key Findings
+### Performance Metrics
 
-#### 1. MLP Accuracy
+| Phase | Structures | Valid | Best Score |
+|-------|:----------:|:-----:|:----------:|
+| Industrial Waste Screening | 16 | 16 | 90.3 |
+| MatterGen Generation | 32 | 26 | -7.82 eV/atom |
+| Combined Candidates | 10 | 10 | - |
 
-| Metric | CHGNet | DFT | Difference |
-|--------|--------|-----|-----------|
-| **Energy/atom** | -7.3862 eV | -7.3973 eV | **0.0111 eV (0.15%)** |
-| **Forces** | < 0.05 eV/Å | - | Converged |
-| **Speed** | **1000× faster** | Baseline | - |
+### CO2 Reduction Potential
 
-#### 2. Hydration Mechanism
+- **Industrial Waste (Top 5)**: 75-85% reduction
+- **MatterGen Structures**: 90% reduction (no clinker)
 
-- **Ca-O bonding**: Strong interaction at < 2.5 Å
-- **C-S-H formation**: Observed within 10 ps simulation
-- **Water coordination**: H-bond network formation confirmed
+### Computation Time
 
-#### 3. Alternative Binders
-
-| Material | CO₂ Reduction | Strength (MPa) | Status |
-|----------|---------------|----------------|--------|
-| **Portland Cement** | 0% (baseline) | 30-40 | Reference |
-| **Steel Slag + CO₂** | **90%** | 25-40 | ✅ Promising |
-| **Fly Ash blend** | 70% | 20-35 | ⚠️ Acceptable |
-| **CSA Cement** | 40% | 30-45 | ✅ Good |
-| **Geopolymer** | 80% | 15-30 | ⚠️ Low strength |
-
-### Performance
-
-- **Computation Time**: 
-  - C₃S optimization: 5 steps, ~2 minutes (GPU)
-  - Hydration MD (10 ps): 30-60 minutes (GPU)
-  - Full screening (20 materials): ~8 hours (GPU)
-
-- **Accuracy**:
-  - DFT agreement: < 0.05 eV/atom
-  - Force prediction: < 0.1 eV/Å RMSE
-  - Structure preservation: 100%
+- CHGNet optimization: ~2 min/structure (GPU)
+- MD simulation (2 ps): ~10 min (GPU)
+- MatterGen generation: ~5 min/batch (GPU)
 
 ---
 
-## 📈 Roadmap
+## Figures
 
-### Phase 1: Proof of Concept ✅
-- [x] CHGNet validation
-- [x] C₃S optimization
-- [x] Basic hydration simulation
+All publication-ready figures are in `figures/paper/`:
 
-### Phase 2: Material Screening (In Progress)
-- [x] Steel slag evaluation
-- [ ] Fly ash blends
-- [ ] CSA cement systems
-- [ ] Geopolymer compositions
-
-### Phase 3: AI Discovery (Planned)
-- [ ] MatterGen integration
-- [ ] Novel composition generation
-- [ ] High-throughput screening
-- [ ] Experimental validation
-
-### Phase 4: Publication
-- [ ] Manuscript preparation
-- [ ] Supplementary information
-- [ ] Code release
-- [ ] Competition submission (Feb 2026)
+| Figure | Description |
+|--------|-------------|
+| Fig1 | Pipeline Overview |
+| Fig2 | Screening Results |
+| Fig3 | Top 5 Comparison |
+| Fig4 | Molecular Analysis |
+| Fig5 | Complete Pipeline (with MatterGen) |
+| Fig6 | MatterGen vs Industrial Waste |
+| Fig7 | Recommendations |
 
 ---
 
-## 🤝 Contributing
+## Acknowledgments
 
-We welcome contributions! Please follow these guidelines:
-
-### How to Contribute
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-### Areas for Contribution
-
-- 🔬 New material systems
-- 📊 Improved analysis tools
-- 🎨 Visualization enhancements
-- 📝 Documentation improvements
-- 🐛 Bug reports and fixes
+- **CHGNet Team** - Universal neural network potential
+- **Microsoft Research** - MatterGen generative AI
+- **Materials Project** - DFT reference data
+- **ASE Team** - Atomic Simulation Environment
 
 ---
 
-## 📚 Citation
-
-If you use this code in your research, please cite:
+## Citation
 
 ```bibtex
-@misc{cement_mlp_2026,
+@misc{cement_ai_2026,
   title={AI-Driven Computational Design of Carbon-Neutral Cement Binders},
   author={Your Name},
   year={2026},
-  howpublished={Personal Challenge},
-  url={https://github.com/yourusername/cement-research}
+  howpublished={Personal Challenge 2026}
 }
 ```
 
-### Key References
+---
 
-1. **CHGNet**: Deng, B. et al. (2023). CHGNet: Pretrained universal neural network potential for charge-informed atomistic modeling. *Nature Machine Intelligence*.
+## License
 
-2. **Materials Project**: Jain, A. et al. (2013). The Materials Project: A materials genome approach to accelerating materials innovation. *APL Materials*.
-
-3. **ASE**: Larsen, A. H. et al. (2017). The atomic simulation environment. *Journal of Physics: Condensed Matter*.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Materials Project** - DFT reference data and API access
-- **CHGNet Team** - Universal neural network potential
-- **PyTorch Team** - Deep learning framework
-
-### Computational Resources
-
-- **Hardware**: NVIDIA RTX 4070 (8GB VRAM)
-- **RAM**: 68GB DDR4
-- **Storage**: 1TB NVMe SSD
-
----
-
-## 📧 Contact
-
-**Project Lead**: Your Name  
-**Email**: your.email@example.com  
-**Program**: Personal Challenge 2026
-
-**Project Link**: [https://github.com/yourusername/cement-research](https://github.com/yourusername/cement-research)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2026 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/cement-research&type=Date)](https://star-history.com/#yourusername/cement-research&Date)
-
----
-
-## 📊 Project Statistics
-
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-5000+-blue)
-![Commits](https://img.shields.io/badge/Commits-50+-green)
-![Issues](https://img.shields.io/badge/Issues-0-brightgreen)
-![Pull Requests](https://img.shields.io/badge/PRs-Welcome-brightgreen)
-
----
-
-<div align="center">
-
-### 🚀 Built with passion for sustainable construction materials
-
-**Made with ❤️ for  Challenge 2026**
-
-[🏠 Homepage](https://github.com/yourusername/cement-research) • 
-[📖 Documentation](docs/) • 
-[🐛 Report Bug](issues) • 
-[✨ Request Feature](issues)
-
-</div>
-
----
-
-**Last Updated**: January 28, 2026  
+**Last Updated**: January 29, 2026  
 **Version**: 1.0.0  
-**Status**: Active Development
+**Status**: Complete

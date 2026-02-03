@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       GeSrGeOsNi
+_chemical_formula_sum              "Ge2 Sr1 Os1 Ni1"
+_cell_length_a       4.126715270427664
+_cell_length_b       4.130916960612233
+_cell_length_c       6.241843223571777
+_cell_angle_alpha    109.25840275918999
+_cell_angle_beta     109.30362512471666
+_cell_angle_gamma    90.01365620396575
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.7142000794410706  0.4868946671485901  0.8338361978530884  1.0000
+  Sr  Sr1       1.0  0.3470361530780792  0.11988302320241927  0.09908837080001831  1.0000
+  Ge  Ge2       1.0  0.9797511696815491  0.7522442936897277  0.36454686522483826  1.0000
+  Os  Os1       1.0  0.09682320058345795  0.36933255195617676  0.5987881422042847  1.0000
+  Ni  Ni1       1.0  0.5970204472541809  0.8699169158935546  0.599315881729126  1.0000

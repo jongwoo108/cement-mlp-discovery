@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CaSiFeOFeO3
+_chemical_formula_sum              "Ca1 Si1 Fe2 O4"
+_cell_length_a       5.563893248358258
+_cell_length_b       5.586082061319758
+_cell_length_c       5.569803237915038
+_cell_angle_alpha    74.71713239073675
+_cell_angle_beta     129.2329990324946
+_cell_angle_gamma    129.26443066488557
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.6682783522511063  0.2106869568257668  0.7185999356976317  1.0000
+  Si  Si1       1.0  0.1683865507216963  0.9599843884041855  0.9686197448935809  1.0000
+  Fe  Fe1       1.0  0.16855002292834526  0.4612071267655116  0.46852518142741356  1.0000
+  O   O1        1.0  0.5862154098863384  0.05802846903394971  0.09632145516967057  1.0000
+  Fe  Fe2       1.0  0.6653035628384897  0.7085901400469701  0.21692871709559688  1.0000
+  O   O2        1.0  0.751634318810775  0.6695720816137141  0.649763251963614  1.0000
+  O   O3        1.0  0.13946641427565545  0.8329997940772579  0.2583344399911188  1.0000
+  O   O4        1.0  0.1967479671839443  0.277255274899566  0.8694866240037916  1.0000

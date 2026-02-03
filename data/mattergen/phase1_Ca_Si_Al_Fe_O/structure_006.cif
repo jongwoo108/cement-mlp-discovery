@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Al2Si2FeO
+_chemical_formula_sum              "Al2 Si2 Fe1 O1"
+_cell_length_a       3.766442051752053
+_cell_length_b       3.770215810432104
+_cell_length_c       7.956608772277832
+_cell_angle_alpha    76.32008252771986
+_cell_angle_beta     76.32280144090444
+_cell_angle_gamma    60.09187303785487
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.05751718208193778  0.8082281351089478  0.09911669790744783  1.0000
+  Al  Al2       1.0  0.2805669903755188  0.031110964715480808  0.4298237264156342  1.0000
+  Si  Si1       1.0  0.5633745789527893  0.3136173486709595  0.5805801153182983  1.0000
+  Si  Si2       1.0  0.6718644499778748  0.4223368167877197  0.25502756237983704  1.0000
+  Fe  Fe1       1.0  0.8360741734504701  0.5869166254997253  0.7639529705047609  1.0000
+  O   O1        1.0  0.13079805672168732  0.8819646835327148  0.877700448036194  1.0000

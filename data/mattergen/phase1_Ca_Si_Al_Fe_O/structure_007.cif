@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Al2CaFe2O
+_chemical_formula_sum              "Al2 Ca1 Fe2 O1"
+_cell_length_a       4.026672439824756
+_cell_length_b       4.02568069260302
+_cell_length_c       5.568264484405518
+_cell_angle_alpha    89.98432721869209
+_cell_angle_beta     89.98882831567296
+_cell_angle_gamma    89.99437442846208
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.3232901692390442  0.4039455056190491  0.4266785681247711  1.0000
+  Al  Al2       1.0  0.3235728144645691  0.4041231572628021  0.9453525543212891  1.0000
+  Ca  Ca1       1.0  0.8237636685371399  0.903924584388733  0.18422751128673553  1.0000
+  Fe  Fe1       1.0  0.32403722405433655  0.9042739868164062  0.6853078603744507  1.0000
+  Fe  Fe2       1.0  0.8237737417221069  0.4038782417774201  0.6853792071342468  1.0000
+  O   O1        1.0  0.8242515921592712  0.9042612910270691  0.6865688562393188  1.0000

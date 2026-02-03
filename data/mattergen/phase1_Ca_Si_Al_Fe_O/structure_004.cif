@@ -1,0 +1,27 @@
+data_image0
+_chemical_formula_structural       FeAl
+_chemical_formula_sum              "Fe1 Al1"
+_cell_length_a       2.8600254065468533
+_cell_length_b       2.860820777039842
+_cell_length_c       2.862002372741699
+_cell_angle_alpha    90.00394352384296
+_cell_angle_beta     89.99876624034881
+_cell_angle_gamma    90.0516797176286
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6069003343582153  0.1266954094171524  0.14943785965442657  1.0000
+  Al  Al1       1.0  0.10673483461141586  0.6267808675765991  0.6495247483253479  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CaAlSiCaO
+_chemical_formula_sum              "Ca2 Al1 Si1 O1"
+_cell_length_a       4.209895758946749
+_cell_length_b       4.689670586840145
+_cell_length_c       4.68903112411499
+_cell_angle_alpha    90.00580816542937
+_cell_angle_beta     90.01519967679499
+_cell_angle_gamma    90.0182732618741
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.4787038266658783  0.914692521095276  0.2602640688419342  1.0000
+  Al  Al1       1.0  0.9786456823348999  0.4142610430717468  0.2601800262928009  1.0000
+  Si  Si1       1.0  0.9785428643226624  0.914946973323822  0.7602144479751587  1.0000
+  Ca  Ca2       1.0  0.4788186848163605  0.41459837555885315  0.7602027654647827  1.0000
+  O   O1        1.0  0.4789815843105316  0.41462814807891846  0.26046663522720337  1.0000

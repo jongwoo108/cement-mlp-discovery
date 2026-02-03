@@ -1,0 +1,49 @@
+{
+  "experiment": "MatterGen Improved (Ca-rich + Supercell)",
+  "results": [
+    {
+      "name": "improved_Ca6O2Si2",
+      "formula": "Ca6O2Si2",
+      "supercell": "Ca48O16Si16",
+      "ca": 48,
+      "si": 16,
+      "ca_si": 3.0,
+      "n_atoms": 80,
+      "n_water": 25,
+      "e0": -645.878662109375,
+      "e1": -591.1060791015625,
+      "dE": 54.7725830078125
+    },
+    {
+      "name": "improved_Ca6O2Si2",
+      "formula": "Ca6O2Si2",
+      "supercell": "Ca48O16Si16",
+      "ca": 48,
+      "si": 16,
+      "ca_si": 3.0,
+      "n_atoms": 80,
+      "n_water": 25,
+      "e0": -624.0479125976562,
+      "e1": -613.0860595703125,
+      "dE": 10.96185302734375
+    },
+    {
+      "name": "improved_Al2Ca2FeO8Si",
+      "formula": "Al2Ca2FeO8Si",
+      "supercell": "Al16Ca16Fe8O64Si8",
+      "ca": 16,
+      "si": 8,
+      "ca_si": 2.0,
+      "n_atoms": 112,
+      "n_water": 25,
+      "e0": -1064.7991943359375,
+      "e1": -795.95947265625,
+      "dE": 268.8397216796875
+    }
+  ],
+  "comparison": {
+    "iw_avg": -173.34474487304686,
+    "mg_improved_avg": 111.52471923828125,
+    "mg_previous_avg": -66.66
+  }
+}

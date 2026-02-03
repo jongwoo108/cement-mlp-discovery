@@ -1,0 +1,185 @@
+{
+  "methodology": {
+    "description": "Hydrated mechanical properties calculation",
+    "workflow": "MatterGen structure -> Add water -> MD equilibration -> Bulk modulus calculation",
+    "water_molecules_added": 5,
+    "md_equilibration_steps": 500
+  },
+  "references": {
+    "portland_cement": {
+      "bulk_modulus_GPa": 45,
+      "youngs_modulus_GPa": 25
+    },
+    "csh_gel": {
+      "bulk_modulus_GPa": 30,
+      "youngs_modulus_GPa": 20
+    }
+  },
+  "grading_criteria": {
+    "A": "K >= 36 GPa (cement-level)",
+    "B": "K >= 24 GPa (C-S-H level)",
+    "C": "K < 24 GPa (below threshold)"
+  },
+  "results": [
+    {
+      "name": "phase2_Ca_Si_O_structure_005",
+      "formula": "Ca2OSi",
+      "n_atoms_original": 4,
+      "n_atoms_hydrated": 19,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 137.77213522110156,
+      "shear_modulus_G": 82.66328113266094,
+      "youngs_modulus_E": 206.65820283165235,
+      "poissons_ratio": 0.25,
+      "K_ratio": 3.0616030049133682,
+      "grade": "A"
+    },
+    {
+      "name": "phase2_Ca_Si_Mg_O_structure_000",
+      "formula": "CaMgOSi",
+      "n_atoms_original": 4,
+      "n_atoms_hydrated": 19,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 129.46865801023011,
+      "shear_modulus_G": 77.68119480613807,
+      "youngs_modulus_E": 194.2029870153452,
+      "poissons_ratio": 0.25,
+      "K_ratio": 2.8770812891162247,
+      "grade": "A"
+    },
+    {
+      "name": "phase2_Ca_Si_Mg_O_structure_007",
+      "formula": "CaMgOSi",
+      "n_atoms_original": 4,
+      "n_atoms_hydrated": 19,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 127.06085426174224,
+      "shear_modulus_G": 76.23651255704534,
+      "youngs_modulus_E": 190.59128139261338,
+      "poissons_ratio": 0.25,
+      "K_ratio": 2.8235745391498273,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_O_structure_007",
+      "formula": "AlCa2OSi",
+      "n_atoms_original": 5,
+      "n_atoms_hydrated": 20,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 59.061012871664076,
+      "shear_modulus_G": 35.436607722998446,
+      "youngs_modulus_E": 88.59151930749611,
+      "poissons_ratio": 0.25,
+      "K_ratio": 1.312466952703646,
+      "grade": "A"
+    },
+    {
+      "name": "phase2_Ca_Si_Mg_O_structure_003",
+      "formula": "Ca2MgOSi",
+      "n_atoms_original": 5,
+      "n_atoms_hydrated": 20,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 60.796922344499194,
+      "shear_modulus_G": 36.47815340669952,
+      "youngs_modulus_E": 91.1953835167488,
+      "poissons_ratio": 0.25,
+      "K_ratio": 1.3510427187666487,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_O_structure_001",
+      "formula": "AlCaOSi3",
+      "n_atoms_original": 6,
+      "n_atoms_hydrated": 21,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 86.50699968550389,
+      "shear_modulus_G": 51.90419981130233,
+      "youngs_modulus_E": 129.76049952825582,
+      "poissons_ratio": 0.25,
+      "K_ratio": 1.9223777707889753,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_O_structure_006",
+      "formula": "Al2CaO2Si",
+      "n_atoms_original": 6,
+      "n_atoms_hydrated": 21,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 129.20917800827564,
+      "shear_modulus_G": 77.52550680496537,
+      "youngs_modulus_E": 193.81376701241345,
+      "poissons_ratio": 0.25,
+      "K_ratio": 2.87131506685057,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_Fe_O_structure_007",
+      "formula": "Al2CaFe2O",
+      "n_atoms_original": 6,
+      "n_atoms_hydrated": 21,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 81.06911576993724,
+      "shear_modulus_G": 48.641469461962345,
+      "youngs_modulus_E": 121.60367365490588,
+      "poissons_ratio": 0.25,
+      "K_ratio": 1.8015359059986054,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_O_structure_004",
+      "formula": "AlCa2O4Si",
+      "n_atoms_original": 8,
+      "n_atoms_hydrated": 23,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 65.65337947491061,
+      "shear_modulus_G": 39.39202768494637,
+      "youngs_modulus_E": 98.48006921236592,
+      "poissons_ratio": 0.25,
+      "K_ratio": 1.4589639883313468,
+      "grade": "A"
+    },
+    {
+      "name": "phase1_Ca_Si_Al_O_structure_005",
+      "formula": "AlCa2O4Si",
+      "n_atoms_original": 8,
+      "n_atoms_hydrated": 23,
+      "n_water": 5,
+      "state": "hydrated",
+      "bulk_modulus_K": 141.0259018282996,
+      "shear_modulus_G": 84.61554109697975,
+      "youngs_modulus_E": 211.53885274244936,
+      "poissons_ratio": 0.25,
+      "K_ratio": 3.133908929517769,
+      "grade": "A"
+    }
+  ],
+  "summary": {
+    "total_calculated": 10,
+    "grade_A_count": 10,
+    "grade_B_count": 0,
+    "grade_C_count": 0,
+    "best_candidate": "AlCa2O4Si",
+    "best_K_GPa": 141.0259018282996,
+    "lab_ready_candidates": [
+      "Ca2OSi",
+      "CaMgOSi",
+      "CaMgOSi",
+      "AlCa2OSi",
+      "Ca2MgOSi",
+      "AlCaOSi3",
+      "Al2CaO2Si",
+      "Al2CaFe2O",
+      "AlCa2O4Si",
+      "AlCa2O4Si"
+    ]
+  }
+}

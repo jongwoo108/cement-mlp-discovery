@@ -1,0 +1,41 @@
+{
+  "simulation_params": {
+    "n_water": 15,
+    "md_time_ps": 2.0,
+    "temperature_K": 300
+  },
+  "results": [
+    {
+      "name": "structure_001_opt",
+      "original_formula": "AlCaOSi3",
+      "hydrated_formula": "H16AlCaO9Si3",
+      "initial_energy": -77.46711730957031,
+      "final_energy": -157.4495391845703,
+      "energy_change": -79.982421875,
+      "traj_path": "c:\\cement_final\\trajectories\\mattergen_structure_001_opt_hydration.traj",
+      "csh_indicators": {
+        "ca_displacement": 8.659230354391534,
+        "mean_oh_distance": 5.32413954068404,
+        "min_oh_distance": 1.0350980510741177,
+        "si_coordination_mean": 0.0,
+        "si_coordination_std": 0.0
+      }
+    },
+    {
+      "name": "structure_004_opt",
+      "original_formula": "AlCa2O4Si",
+      "hydrated_formula": "H18AlCa2O13Si",
+      "initial_energy": -141.7871856689453,
+      "final_energy": -195.1181182861328,
+      "energy_change": -53.3309326171875,
+      "traj_path": "c:\\cement_final\\trajectories\\mattergen_structure_004_opt_hydration.traj",
+      "csh_indicators": {
+        "ca_displacement": 2.821428102266135,
+        "mean_oh_distance": 1.7944061847091652,
+        "min_oh_distance": 0.9490858520361547,
+        "si_coordination_mean": 2.0,
+        "si_coordination_std": 0.0
+      }
+    }
+  ]
+}

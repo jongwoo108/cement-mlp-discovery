@@ -1,0 +1,94 @@
+{
+  "methodology": {
+    "description": "Hydration simulation-based comparison",
+    "metrics": {
+      "energy_score": "Based on energy change during hydration (40%)",
+      "ca_score": "Based on Ca leaching/displacement (30%)",
+      "si_score": "Based on Si coordination number (30%)",
+      "final_score": "hydration_score * 0.7 + co2_reduction * 0.3"
+    }
+  },
+  "summary": {
+    "total_candidates": 7,
+    "industrial_waste_count": 5,
+    "mattergen_count": 2,
+    "top_candidate": "EAFSlag",
+    "top_score": 77.7937062937063,
+    "average_by_source": {
+      "Industrial Waste": 74.54464238210825,
+      "MatterGen": 62.97065878671711
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "EAFSlag",
+      "source": "Industrial Waste",
+      "formula": "AlCa5Fe3O16Si4",
+      "hydration_score": 78.99100899100898,
+      "co2_reduction": 75,
+      "final_score": 77.7937062937063,
+      "grade": "B"
+    },
+    {
+      "rank": 2,
+      "name": "WasteGlass",
+      "source": "Industrial Waste",
+      "formula": "Ca2Na2O16Si6",
+      "hydration_score": 75.99400599400599,
+      "co2_reduction": 75,
+      "final_score": 75.69580419580419,
+      "grade": "B"
+    },
+    {
+      "rank": 3,
+      "name": "FlyAshC",
+      "source": "Industrial Waste",
+      "formula": "Al2Ca4O16Si5",
+      "hydration_score": 70.83060249686837,
+      "co2_reduction": 85,
+      "final_score": 75.08142174780785,
+      "grade": "B"
+    },
+    {
+      "rank": 4,
+      "name": "SteelSlag",
+      "source": "Industrial Waste",
+      "formula": "Ca8Fe2MgO16Si3",
+      "hydration_score": 71.72626917759975,
+      "co2_reduction": 75,
+      "final_score": 72.70838842431982,
+      "grade": "B"
+    },
+    {
+      "rank": 5,
+      "name": "CopperSlag",
+      "source": "Industrial Waste",
+      "formula": "AlCa2Fe5O16Si4",
+      "hydration_score": 69.9198446412901,
+      "co2_reduction": 75,
+      "final_score": 71.44389124890307,
+      "grade": "B"
+    },
+    {
+      "rank": 6,
+      "name": "structure_001",
+      "source": "MatterGen",
+      "formula": "AlCaOSi3",
+      "hydration_score": 53.9759332506746,
+      "co2_reduction": 90,
+      "final_score": 64.78315327547222,
+      "grade": "C"
+    },
+    {
+      "rank": 7,
+      "name": "structure_004",
+      "source": "MatterGen",
+      "formula": "AlCa2O4Si",
+      "hydration_score": 48.797377568517156,
+      "co2_reduction": 90,
+      "final_score": 61.15816429796201,
+      "grade": "C"
+    }
+  ]
+}
