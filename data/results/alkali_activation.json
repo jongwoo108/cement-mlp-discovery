@@ -7,49 +7,49 @@
   },
   "parameters": {
     "n_molecules": 8,
-    "md_steps": 2000,
+    "md_steps": 10000,
     "temperature": 300
   },
   "results": [
     {
       "name": "Water Hydration (H2O)",
-      "n_atoms": 54,
-      "formula": "H12Ca12O26Si4",
-      "initial_energy": -292.7845458984375,
-      "final_energy": -341.64764404296875,
-      "delta_e": -48.86309814453125,
+      "n_atoms": 57,
+      "formula": "H14Ca12O27Si4",
+      "initial_energy": -309.1919250488281,
+      "final_energy": -364.942626953125,
+      "delta_e": -55.750701904296875,
       "success": true
     },
     {
       "name": "NaOH Activation",
       "n_atoms": 51,
       "formula": "H5Ca12Na5O25Si4",
-      "initial_energy": -242.0151824951172,
-      "final_energy": -320.2720031738281,
-      "delta_e": -78.25682067871094,
+      "initial_energy": -202.22621154785156,
+      "final_energy": -319.77789306640625,
+      "delta_e": -117.55168151855469,
       "success": true
     },
     {
       "name": "KOH Activation",
-      "n_atoms": 57,
-      "formula": "H7Ca12K7O27Si4",
-      "initial_energy": -259.8744201660156,
-      "final_energy": -351.6385498046875,
-      "delta_e": -91.76412963867188,
+      "n_atoms": 51,
+      "formula": "H5Ca12K5O25Si4",
+      "initial_energy": -257.1874694824219,
+      "final_energy": -324.36871337890625,
+      "delta_e": -67.18124389648438,
       "success": true
     },
     {
       "name": "Mixed (H2O + NaOH)",
-      "n_atoms": 60,
-      "formula": "H12Ca12Na4O28Si4",
-      "initial_energy": -251.8420867919922,
-      "final_energy": -368.35260009765625,
-      "delta_e": -116.51051330566406,
+      "n_atoms": 51,
+      "formula": "H9Ca12NaO25Si4",
+      "initial_energy": -278.3926696777344,
+      "final_energy": -331.43560791015625,
+      "delta_e": -53.042938232421875,
       "success": true
     }
   ],
   "comparison": {
-    "best_method": "Mixed (H2O + NaOH)",
-    "best_delta_e": -116.51051330566406
+    "best_method": "NaOH Activation",
+    "best_delta_e": -117.55168151855469
   }
 }

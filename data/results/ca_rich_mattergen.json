@@ -7,24 +7,24 @@
   "optimization_results": [
     {
       "name": "C3S_like (Ca/Si=3.0)",
-      "energy": -242.9847412109375,
-      "e_per_atom": -6.749576091766357,
+      "energy": -242.984619140625,
+      "e_per_atom": -6.74957275390625,
       "n_atoms": 36,
       "ca_si_ratio": 3.0,
       "success": true
     },
     {
       "name": "C2S_like (Ca/Si=2.0)",
-      "energy": -181.24322509765625,
-      "e_per_atom": -6.472972393035889,
+      "energy": -181.23065185546875,
+      "e_per_atom": -6.472523212432861,
       "n_atoms": 28,
       "ca_si_ratio": 2.0,
       "success": true
     },
     {
       "name": "Optimal (Ca/Si=2.5)",
-      "energy": -230.4360809326172,
-      "e_per_atom": -7.201127529144287,
+      "energy": -230.43594360351562,
+      "e_per_atom": -7.201123237609863,
       "n_atoms": 32,
       "ca_si_ratio": 2.5,
       "success": true
@@ -33,40 +33,40 @@
   "hydration_results": [
     {
       "name": "C3S_like (Ca/Si=3.0)",
-      "n_water": 7,
-      "initial_energy": -307.6689453125,
-      "final_energy": -357.2807312011719,
-      "delta_e": -49.611785888671875,
+      "n_water": 9,
+      "initial_energy": -337.7220153808594,
+      "final_energy": -392.60931396484375,
+      "delta_e": -54.887298583984375,
       "success": true,
       "ca_si_ratio": 3.0,
-      "e_per_atom": -6.749576091766357
+      "e_per_atom": -6.74957275390625
     },
     {
       "name": "C2S_like (Ca/Si=2.0)",
       "n_water": 10,
-      "initial_energy": -318.05474853515625,
-      "final_energy": -349.4113464355469,
-      "delta_e": -31.356597900390625,
+      "initial_energy": -317.6513977050781,
+      "final_energy": -353.2270812988281,
+      "delta_e": -35.57568359375,
       "success": true,
       "ca_si_ratio": 2.0,
-      "e_per_atom": -6.472972393035889
+      "e_per_atom": -6.472523212432861
     },
     {
       "name": "Optimal (Ca/Si=2.5)",
       "n_water": 9,
-      "initial_energy": -337.50994873046875,
-      "final_energy": -369.0350646972656,
-      "delta_e": -31.525115966796875,
+      "initial_energy": -337.5494079589844,
+      "final_energy": -370.92608642578125,
+      "delta_e": -33.376678466796875,
       "success": true,
       "ca_si_ratio": 2.5,
-      "e_per_atom": -7.201127529144287
+      "e_per_atom": -7.201123237609863
     }
   ],
   "comparison": {
     "industrial_top3": [],
     "best_ca_rich": {
       "name": "C3S_like (Ca/Si=3.0)",
-      "delta_e": -49.611785888671875,
+      "delta_e": -54.887298583984375,
       "ca_si_ratio": 3.0
     }
   }
